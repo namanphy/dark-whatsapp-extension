@@ -8,4 +8,6 @@ This is a chrome extension to toggle the dark mode in web.whatsapp.com on chrome
 * **popup.html** : This is html file that contains the UI of extension popup.
 * **popup.js** : This is the javascript file runs associated with the `popup.html`.
 
-reference - https://blog.lateral.io/2016/04/create-chrome-extension-modify-websites-html-css/
+
+initial reference : https://blog.lateral.io/2016/04/create-chrome-extension-modify-websites-html-css/
+icon credits : https://www.flaticon.com/free-icon/whatsapp_889154?term=whatsapp&page=1&position=16
