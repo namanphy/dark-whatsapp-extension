@@ -1,13 +1,21 @@
 {
   "manifest_version": 2,
 
-  "name": "dark-whaatsapp",
+  "name": "dark-whatsapp",
   "version": "0.1",
   "description": "change theme of web.whatsapp.com",
 
   "content_scripts": [{
     "js": ["content.js"],
     "matches": ["https://web.whatsapp.com/*"]
-  }]
+  }],
 
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+   },
+
+   "permissions": [
+    "activeTab"
+    ]
 }
